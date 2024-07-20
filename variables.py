@@ -136,3 +136,230 @@
 # print (y)
 # print (z)
 # print (w)
+
+
+# Calculating the length of the data
+# name = "John"
+
+# print(len(name))
+
+
+# unique_chars = set ("Hello")
+# print (unique_chars)
+
+## Operators in Python
+# Operators are special symbols in Python that perform operations on variables and values. Python supports a variety of operators, including Arithmetic, Comparison, and Logical operators.#
+# This is the addition operator
+# x = 5
+# y = 3
+# print(x + y)  # Outputs: 8
+
+# This is the multiplication operator
+# x = 10
+# y = 100
+# print(x * y)  # Outputs: 1000
+
+# This is the subtraction operator
+
+# b = 10000
+# r = 700
+# # print(b - r) # Outputs: 9300
+# print (b / r)
+
+## The Modulus Operator
+# h = 2
+# t = 5
+
+# print (h % t)
+
+# Comparison Operators:
+# Comparison operators compare two values and return a Boolean (True or False).
+
+# x = 5
+# y = 3
+# # print(x == y)  # Outputs: False
+
+#     #• Not Equal (!=):
+# print(x != y)  # Outputs: True
+
+   # • Greater Than (>):
+# print(x > y)  # Outputs: True
+
+# Less than (<):
+# print(x < y)  # Outputs: False
+
+   # • Greater Than or Equal To (>=):
+# print(x >= y)  # Outputs: True
+#     • Less Than or Equal To (<=):
+# print(x <= y)  # Outputs: False
+
+# LOOPS
+#For Loop
+
+# numbers = [1, 2, 3, 4, 5]
+# for num in numbers:
+#     print(num)
+
+# While Loop
+
+# num = 1
+# while num <= 10:
+#   break
+# cprint (num + 3)
+# num =1
+# while num <=100:
+#     print(num)
+#     num +=1
+
+## Functions
+
+## Function naming/Definition
+
+# This code defines a function called my_function that prints a greeting message to the user. 
+# The function does not take any parameters and does not return any value. 
+# It prints three lines of text: "Hello Loveth the trouble maker", "I hope this class penetrates your mind", and "Thank You!".
+# def my_function():
+#     """
+#     # Prints a greeting message to the user.
+#     Hello Loveth the trouble maker
+
+#     # This function does not take any parameters.
+
+#     # It prints a multi-line string that includes a greeting message and a thank you message.
+#     I hope this class penetrates your mind
+#     Thank You!
+    
+#     This function does not return any value.
+    
+# """
+#     print("Hello Loveth the trouble maker")
+#     print("I hope this class penetrates your mind")
+#     print("Thank You!")
+
+# my_function()
+
+#  this ask the user to inpute there details,
+name = input("Enter your name: ")
+print("Hello", name ) 
+
+#  this installs the data in a file called store.txt
+with open("store.txt", "a+") as f:
+    f .write(name + "\n")
+
+say = ("     wellcom  ")
+print (say)
+
+with open("store.txt", "a+") as f:
+    f .write(say + "\n")
+
+Sex = input ("Enter yuor Sex: ")
+print (Sex)
+
+with open("store.txt", "a+") as f:
+    f .write(Sex + "\n")
+
+age = input("Enter your Age: ")
+print (age)
+
+with open("store.txt", "a+") as f:
+    f .write(age + "\n")
+
+Marital_status = input("Enter yuor Marital_status ")
+print (Marital_status)
+
+with open("store.txt", "a+") as f:
+    f .write(Marital_status + "\n")
+
+State = input("Enter, yuor, State: ")
+print (State)
+
+with open("store.txt", "a+") as f:
+    f .write(State + "\n")
+
+Ocupation = input("Enter yuor Ocupation: ")
+print (Ocupation)
+
+with open("store.txt", "a+") as f:
+    f .write(Ocupation + "\n")
+
+#this is to print out all the data in the file named store.txt
+with open("store.txt", "r") as f:
+         content = f . read()
+print("existint content:\n" + content)
+
+
+
+
+    
+# # num = 10
+
+# # if num > 0:
+# #     print("Number is positive")
+# # elif num == 0:
+# #     print("Number is zero")
+# # else:
+# #     print("Number is negative"
+
+# # for i in range(1):
+# #     for j in range(2):
+# #         for h in range(4):
+# #             print (i, j, h)
+
+# # for s in range(5):
+# #  print (s)
+# # else:
+# #  print ("loop completed without break")
+
+# # for i in range(5):
+# #     pass  # Placeholder, no action needed
+# #     print (i)
+# # else:
+# #     print ("completed")
+
+# # Name = ("alice")
+
+# # def greet(Name):
+# #      print("Hello, " + Name + "!")
+
+# # greet(Name)
+
+# def add_numbers(a, b):
+#    return a + b
+
+# result = add_numbers(3, 5)  # Arguments 3 and 5 are passed to the function
+# print(result)  # Output: 8
+
+# def square(num):
+#     return num ** 2
+
+# result = square(4)
+# print(result)  # Output: 16
+
+
+# def greet(name="World"):
+#     print("Hello, " + name + "!")
+
+# greet()  # Output: Hello, World!
+# greet("Alice")  # Output: Hello, Alice!
+
+# def describe_person(name, age):
+#     print("Name:", name)
+#     print("Age:", age)
+
+# describe_person(age=30, name="Alice")
+
+# def print_args(*args):
+#     for arg in args:
+#         print(arg)
+
+# print_args(1, 2, 3, "hello")
+
+# def print_kwargs(**kwargs):
+#     for key, value in kwargs.items():
+#         print(key, ":", value)
+
+# print_kwargs(name="Alice", age=25)
+
+add = lambda a, b: a + b
+result = add(3, 5)
+print(result)  # Output: 8
