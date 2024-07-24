@@ -1,12 +1,10 @@
 print ("please enter yuor details: ")
 name = input("Enter your name: ")
 
-print("Welcome " + name) 
-
 if name ==():
     exit()
 elif name == "samuel" or name == "big stan":
- print("correct name entry ""Saving.....")
+ print("wellcome " +name "Saving..... ")
 
 else:
     print("yuor entry is incorrect ." "Not,Saved")  
